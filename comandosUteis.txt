@@ -1,0 +1,23 @@
+----------- CRIAR PROJETO ---------------
+
+npm init -y     (cria o package.json)
+npm i nodemon -D
+npm start
+
+
+
+
+
+
+
+
+----------- PROJETO CRIADO ---------------
+
+Se precisar rodar em outra maquina
+npm i
+
+Alterar no package.json
+"name": "http-studying", /* alterar o nome pra evitar erro */
+
+
+"start": "nodemon server.js" /* Ficar reiniciando o server automaticamente */
