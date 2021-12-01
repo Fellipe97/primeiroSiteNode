@@ -27,4 +27,4 @@ http.createServer((req,res) => {
 
     // if (req.url === '/contato')
     //     return res.end('<h1>Contato</h1>')
-}).listen(5000,() => console.log('Server Ativo'))
+}).listen(5000,() => console.log('Server Rodando...'))
